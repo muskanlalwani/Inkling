@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.grey.shade900,
+        backgroundColor: Colors.white,
         body: Padding(
           padding: const EdgeInsets.fromLTRB(16, 40, 16, 0),
           child: Column(
@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   const Text(
                     'Notes',
-                    style: TextStyle(fontSize: 30, color: Colors.white),
+                    style: TextStyle(fontSize: 30, color: Colors.black),
                   ),
                   IconButton(
                       onPressed: () {
@@ -85,11 +85,11 @@ class _HomeScreenState extends State<HomeScreen> {
                         width: 40,
                         height: 40,
                         decoration: BoxDecoration(
-                            color: Colors.grey.shade800.withOpacity(.8),
+                            color: Colors.white,
                             borderRadius: BorderRadius.circular(10)),
                         child: const Icon(
                           Icons.sort,
-                          color: Colors.white,
+                          color: Colors.black,
                         ),
                       ))
                 ],
@@ -99,16 +99,16 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               TextField(
                 onChanged: onSearchTextChanged,
-                style: const TextStyle(fontSize: 16, color: Colors.white),
+                style: const TextStyle(fontSize: 16, color: Colors.black),
                 decoration: InputDecoration(
                   contentPadding: const EdgeInsets.symmetric(vertical: 12),
                   hintText: "Search notes...",
                   hintStyle: const TextStyle(color: Colors.grey),
                   prefixIcon: const Icon(
                     Icons.search,
-                    color: Colors.grey,
+                    color: Colors.black,
                   ),
-                  fillColor: Colors.grey.shade800,
+                  fillColor: Colors.white,
                   filled: true,
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30),
