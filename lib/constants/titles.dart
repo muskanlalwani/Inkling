@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 List<String> titlesList = [
   'The Amazing Adventures of Spider-Man',
   'The Avengers',

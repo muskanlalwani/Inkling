@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:note_app/constants/colors.dart';
@@ -121,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Expanded(
@@ -272,8 +271,8 @@ class _HomeScreenState extends State<HomeScreen> {
               elevation: 10,
               backgroundColor: Colors.grey.shade800,
               child: const Icon(
-                Icons.border_color,
-                size: 38,
+                Icons.generating_tokens_outlined,
+                size: 30,
               ),
             )
           ],

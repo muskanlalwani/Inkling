@@ -1,9 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:note_app/constants/colors.dart';
 import 'package:note_app/models/note.dart';
-import 'package:note_app/screens/edit.dart';
 import 'package:note_app/constants/titles.dart';
 
 class TitleScreen extends StatefulWidget {
@@ -19,8 +17,6 @@ class _TitleScreenState extends State<TitleScreen> {
   TextEditingController _contentController = TextEditingController();
   @override
   void initState() {
-    // TODO: implement initState
-
     if (widget.note != null) {
       _titleController = TextEditingController(text: widget.note!.title);
       _contentController = TextEditingController(text: widget.note!.content);
@@ -30,17 +26,8 @@ class _TitleScreenState extends State<TitleScreen> {
 
   getRandomTitle() {
     Random random = Random();
-    return backgroundColors[random.nextInt(titlesList.length)];
+    return titlesList[random.nextInt(titlesList.length)];
   }
-  // void refreshOptions() {
-  //   // Get a new random title.
-  //   String newTitle = getRandomTitle();
-
-  //   // Set the TextField's hint text to the new title.
-  //   setState(() {
-  //     hintText = newTitle;
-  //   });
-  // }
 
   @override
   Widget build(BuildContext context) {
@@ -76,24 +63,17 @@ class _TitleScreenState extends State<TitleScreen> {
               children: [
                 TextField(
                   controller: _contentController,
-                  style: TextStyle(color: Colors.white, fontSize: 30),
+                  style: const TextStyle(color: Colors.white, fontSize: 30),
                   decoration: InputDecoration(
                     border: InputBorder.none,
                     hintText: getRandomTitle(),
-                    hintStyle: TextStyle(color: Colors.grey),
-                    // suffixIcon: IconButton(
-                    //   icon: Icon(Icons.refresh),
-                    //   // onPressed: () {
-                    //   //   refreshOptions();
-                    //   //   ;
-                    //   // },
-                    // )
+                    hintStyle: const TextStyle(color: Colors.grey),
                   ),
                 ),
                 TextField(
                   controller: _contentController,
-                  style: TextStyle(color: Colors.white),
-                  decoration: InputDecoration(
+                  style: const TextStyle(color: Colors.white),
+                  decoration: const InputDecoration(
                       border: InputBorder.none,
                       hintText:
                           'Create the content related to the title hinted',
