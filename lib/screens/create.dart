@@ -83,7 +83,7 @@ class _TitleScreenState extends State<TitleScreen> {
                 children: [
                   TextField(
                     controller: _titleController,
-                    style: const TextStyle(color: Colors.white, fontSize: 30),
+                    style: const TextStyle(color: Colors.white, fontSize: 20),
                     decoration: InputDecoration(
                       border: InputBorder.none,
                       hintText: getRandomTitle(),
