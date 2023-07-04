@@ -40,7 +40,9 @@ List<String> titlesList = [
 ```
 
 ###  Demo
-![demo](https://github.com/muskanlalwani/note_app-starter/assets/80694201/7e7835aa-71c8-4a14-8774-cd1ea98d0893 )
+<p align="center"/>
+<img width="200" src="https://github.com/muskanlalwani/note_app-starter/assets/80694201/7e7835aa-71c8-4a14-8774-cd1ea98d0893" />
+
 
 
 
