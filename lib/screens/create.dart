@@ -83,7 +83,11 @@ class _TitleScreenState extends State<TitleScreen> {
                 children: [
                   TextField(
                     controller: _titleController,
-                    style: const TextStyle(color: Colors.white, fontSize: 20),
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                    ),
+                    maxLines: null,
                     decoration: InputDecoration(
                       border: InputBorder.none,
                       hintText: getRandomTitle(),
@@ -92,14 +96,18 @@ class _TitleScreenState extends State<TitleScreen> {
                   ),
                   TextField(
                     controller: _contentController,
-                    style: const TextStyle(color: Colors.white),
+                    style: const TextStyle(
+                      color: Colors.white,
+                    ),
+                    maxLines: null,
                     decoration: const InputDecoration(
-                        border: InputBorder.none,
-                        hintText:
-                            'Create the content related to the idea title hinted',
-                        hintStyle: TextStyle(
-                          color: Colors.grey,
-                        )),
+                      border: InputBorder.none,
+                      hintText:
+                          'Create the content related to the idea title hinted',
+                      hintStyle: TextStyle(
+                        color: Colors.grey,
+                      ),
+                    ),
                   ),
                 ],
               ))
