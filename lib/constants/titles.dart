@@ -5,4 +5,5 @@ List<String> titlesList = [
   'Never regret. If it\'s good it\'s wonderful. If it\'s bad it\'s an experience.',
   'One of the top five regrets people have is that they didn\'t have the courage to be their true self.',
   'Valuing the people in your life',
+  'EveryBody makes mistakes',
 ];
