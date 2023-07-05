@@ -90,8 +90,11 @@ class _TitleScreenState extends State<TitleScreen> {
                     maxLines: null,
                     decoration: InputDecoration(
                       border: InputBorder.none,
-                      hintText: getRandomTitle(),
-                      hintStyle: const TextStyle(color: Colors.grey),
+                      hintText: 'Pull down to get a topic',
+                      hintStyle: const TextStyle(
+                        color: Colors.grey,
+                      ),
+                      hintMaxLines: null,
                     ),
                   ),
                   TextField(
