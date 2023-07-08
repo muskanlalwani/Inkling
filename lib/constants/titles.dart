@@ -6,4 +6,5 @@ List<String> titlesList = [
   'One of the top five regrets people have is that they didn\'t have the courage to be their true self.',
   'Valuing the people in your life',
   'EveryBody makes mistakes',
+  'If you cant\'t believe on yourself someday , believe on the Almighty because he believes on you everyday.',
 ];
