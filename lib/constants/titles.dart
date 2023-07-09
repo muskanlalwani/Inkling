@@ -7,4 +7,7 @@ List<String> titlesList = [
   'Valuing the people in your life',
   'EveryBody makes mistakes',
   'If you cant\'t believe on yourself someday , believe on the Almighty because he believes on you everyday.',
+  'AI Jobs for the win?',
+  'Will threads destroy Twitter?',
+  'Effect of AI generative tools on Journalism',
 ];
