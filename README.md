@@ -7,6 +7,9 @@ and helps to think on the particular direction to create content.
 The hinted titles are the pre-defined list of titles updated everyday to provide new and current suggestions.
 
 Inkling uses a pre-defined constants to suggest outlines for creative block and gives a start with a new topic just by pulling down the page to refresh.
+<br>
+<br>
+
 
 ## Getting Started
 
