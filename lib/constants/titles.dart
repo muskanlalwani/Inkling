@@ -12,4 +12,5 @@ List<String> titlesList = [
   'Effect of AI generative tools on Journalism',
   'Biggest controversy of your life',
   'Experience you would remember the whole lif(you can change the Title)',
+  'Women Bill passed by the government',
 ];
