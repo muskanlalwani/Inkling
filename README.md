@@ -43,8 +43,8 @@ List<String> titlesList = [
 ```
 
 ###  Demo
-<p align="center"/>
-<img width="200" src="https://github.com/muskanlalwani/note_app-starter/assets/80694201/7e7835aa-71c8-4a14-8774-cd1ea98d0893" />
+
+![demo](https://github.com/muskanlalwani/Inkling/assets/80694201/5c8b8d1d-31ad-4a7e-ba63-f38c6a9b4130)
 
 
 
